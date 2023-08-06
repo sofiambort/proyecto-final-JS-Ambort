@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Pinky Style";
+    src: url(../fonts/Pinky\ Style.otf);
+}
+@font-face {
+    font-family: "Nostalgic Retro";
+    src: url(../fonts/Nostalgic\ Retro.otf);
+}
+@font-face {
+    font-family: "Lopper";
+    src: url(../fonts/loppemarked2DEMO.otf);
+}
+
+@font-face {
+    font-family: "Stainger";
+    src: url(../fonts/Stainger-Regular.otf);
+}
+
+.body-index{
+    background-image: url(../assets/img/principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.61)), url("../assets/img/principal.jpg");
+}
+
+.nombre-sitio{
+    display: grid;
+    justify-content: center;
+    margin-top: 3.125rem;
+    margin-bottom: 3.75rem;
+    font-family: "Pinky Style";
+    font-size: 1.875rem;
+    letter-spacing: .625rem;
+    word-spacing: 1.875rem;
+}
+
+.nombre-sitio a{
+    text-decoration: none;
+}
+
+
+.navbar ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    list-style: none;
+    justify-items: center;
+    font-family: "Lopper";
+    font-size: 1.5625rem;
+    letter-spacing: .1875rem;
+}
+
+.navbar ul a{
+    text-decoration: none;
+}
+
+
+.nombre-pais{
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: 1.25rem;
+    padding-top: 6.25rem;
+    font-family: "Nostalgic Retro";
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6.25rem;
+}
+
+.descripcion-buscador{
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+    padding-top: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.875rem;
+    margin-bottom: 12.5rem;
+    color: aliceblue;
+}
+
+a:link,
+a:visited{
+    color: rgb(250, 250, 238);
+}
+
+.barra-buscadora {
+    width: 31.25rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    margin-right: 1.875rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: rgb(232, 236, 235) 2px outset;
+}
+
+.boton-buscar{
+    width: 6.25rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    border:  rgb(232, 236, 235) 2px outset;
+}
+
+.body-africa{
+    background-image: url(../assets/img/background-africa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.61)), url("../assets/img/background-africa.jpg");
+}
+
+.continente{
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+    color: rgb(233, 243, 99);
+    font-family: "Nostalgic Retro";
+    font-size: .9375rem;
+    letter-spacing: .375rem;
+}
+
+.capitales-africa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10rem;
+    margin-bottom: 6.25rem;
+    row-gap: 1.875rem;
+    color: rgb(241, 248, 139);
+    font-family: "Stainger";
+    background-color: rgba(0, 0, 0, 0.253);
+    padding-top: 5rem;
+    padding-bottom: 3.125rem;
+}
+
+.capital-pais{
+    padding-top: .625rem;
+}
+
+.capital{
+    text-decoration: underline;
+}
+
+.capitales-america{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 12.5rem;
+    margin-bottom: 6.25rem;
+    row-gap: 1.875rem;
+    color: rgb(241, 248, 139);
+    font-family: "Stainger";
+    background-color: rgba(12, 11, 11, 0.493);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    column-gap: 9.375rem;
+}
+
+.body-america{
+    background-image: url(../assets/img/background-america.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.61)), url("../assets/img/background-america.jpg");
+}
+
+.capitales-asia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 9.375rem;
+    margin-bottom: 6.25rem;
+    row-gap: 1.875rem;
+    color: rgb(241, 248, 139);
+    font-family: "Stainger";
+    background-color: rgba(0, 0, 0, 0.288);
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    column-gap: 6.25rem;
+}
+
+.body-asia{
+    background-image: url(../assets/img/background-asia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.61)), url("../assets/img/background-asia.jpg");
+}
+
+.capitales-europa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15rem;
+    margin-bottom: 6.25rem;
+    row-gap: 1.875rem;
+    color: rgb(241, 248, 139);
+    font-family: "Stainger";
+    background-color: rgba(0, 0, 0, 0.315);
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+.body-europa{
+    background-image: url(../assets/img/background-europa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.61)), url("../assets/img/background-europa.jpg");
+}
+
+.capitales-oceania{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15.625rem;
+    margin-bottom: 6.25rem;
+    row-gap: 1.875rem;
+    color: rgb(241, 248, 139);
+    font-family: "Stainger";
+    background-color: rgba(0, 0, 0, 0.212);
+    padding-top: 6.25rem;
+    column-gap: 6.25rem;
+}
+
+.body-oceania{
+    background-image: url(../assets/img/background-oceania.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.61)), url("../assets/img/background-oceania.jpg");
+}
+
+.main-continentes {
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+}
+
+
+
+
+
+
+
